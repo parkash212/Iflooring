@@ -6,7 +6,7 @@ import BasePackage.baseClass;
 import Baseclass.Staff_dashboard;
 
 public class Test_case2 extends baseClass {
-	@Test
+	@Test(groups = {"sanity "})
 	public void staff_account() {
 	Staff_dashboard sd = new Staff_dashboard(driver);
 	sd.sendname("admin@admin.com1");

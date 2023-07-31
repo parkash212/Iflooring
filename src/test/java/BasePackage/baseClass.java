@@ -15,7 +15,7 @@ public class baseClass {
 	public Logger logger; // for logging
 	//JavascriptExecutor js = ((JavascriptExecutor)driver);
 
-	@BeforeClass
+	@BeforeClass(groups = {"Regression,sanity "})
 	public void setup() {
 		logger = LogManager.getLogger(this.getClass());
 		driver = new ChromeDriver();
@@ -24,7 +24,7 @@ public class baseClass {
 		driver.get("https://iflooring.customerdevsites.com/");	
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 	}
-	@AfterClass
+	@AfterClass(groups = {"Regression,sanity "})
 	public void teardown()  {
 		//driver.quit();
 	}

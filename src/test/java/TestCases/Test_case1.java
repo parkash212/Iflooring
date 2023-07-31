@@ -11,7 +11,7 @@ import Baseclass.Customer_dashboard;
 public class Test_case1 extends baseClass{
 JavascriptExecutor js = ((JavascriptExecutor)driver);
 	
-@Test
+@Test(groups = {"Regression "})
 public void test_account() {
 	logger.info("starting test case1");
 	//JavascriptExecutor js = ((JavascriptExecutor)driver);

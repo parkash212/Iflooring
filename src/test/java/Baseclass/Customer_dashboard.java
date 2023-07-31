@@ -9,14 +9,12 @@ import org.openqa.selenium.support.ui.Select;
 	
 	public class Customer_dashboard extends BasePage{
 		//WebDriver driver;
-		
 		// constructor 
 		public Customer_dashboard( WebDriver driver) {
 		 super(driver);
 		 JavascriptExecutor js = ((JavascriptExecutor)driver);
 		 // PageFactory.initElements(driver,this ); 
-	  }
-		
+	  }	
 	@FindBy(name="email")
 	WebElement txt_username ;
 	

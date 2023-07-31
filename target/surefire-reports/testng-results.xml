@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-07T15:23:22 IST" name="Suite" finished-at="2023-06-07T15:24:09 IST" duration-ms="46068">
+  <suite started-at="2023-06-24T13:36:34 IST" name="Suite" finished-at="2023-06-24T13:37:22 IST" duration-ms="48114">
     <groups>
     </groups>
-    <test started-at="2023-06-07T15:23:22 IST" name="Test" finished-at="2023-06-07T15:24:09 IST" duration-ms="46068">
+    <test started-at="2023-06-24T13:36:34 IST" name="Test" finished-at="2023-06-24T13:37:22 IST" duration-ms="48114">
       <class name="TestCases.Test_case1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Test_case1@74fe5c40]" started-at="2023-06-07T15:23:22 IST" name="setup" finished-at="2023-06-07T15:23:35 IST" duration-ms="12804" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Test_case1@74fe5c40]" started-at="2023-06-24T13:36:34 IST" name="setup" finished-at="2023-06-24T13:36:43 IST" duration-ms="9030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account()[pri:0, instance:TestCases.Test_case1@74fe5c40]" started-at="2023-06-07T15:23:35 IST" name="test_account" finished-at="2023-06-07T15:23:49 IST" duration-ms="13381" status="PASS">
+        <test-method signature="test_account()[pri:0, instance:TestCases.Test_case1@74fe5c40]" started-at="2023-06-24T13:36:43 IST" name="test_account" finished-at="2023-06-24T13:36:57 IST" duration-ms="14022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Test_case1@74fe5c40]" started-at="2023-06-07T15:23:49 IST" name="teardown" finished-at="2023-06-07T15:23:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Test_case1@74fe5c40]" started-at="2023-06-24T13:36:57 IST" name="teardown" finished-at="2023-06-24T13:36:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCases.Test_case1 -->
       <class name="TestCases.Test_case2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Test_case2@7f0eb4b4]" started-at="2023-06-07T15:23:22 IST" name="setup" finished-at="2023-06-07T15:23:36 IST" duration-ms="13248" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Test_case2@7f0eb4b4]" started-at="2023-06-24T13:36:34 IST" name="setup" finished-at="2023-06-24T13:36:43 IST" duration-ms="9376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="staff_account()[pri:0, instance:TestCases.Test_case2@7f0eb4b4]" started-at="2023-06-07T15:23:36 IST" name="staff_account" finished-at="2023-06-07T15:24:09 IST" duration-ms="32786" status="PASS">
+        <test-method signature="staff_account()[pri:0, instance:TestCases.Test_case2@7f0eb4b4]" started-at="2023-06-24T13:36:43 IST" name="staff_account" finished-at="2023-06-24T13:37:22 IST" duration-ms="38705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- staff_account -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Test_case2@7f0eb4b4]" started-at="2023-06-07T15:24:09 IST" name="teardown" finished-at="2023-06-07T15:24:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Test_case2@7f0eb4b4]" started-at="2023-06-24T13:37:22 IST" name="teardown" finished-at="2023-06-24T13:37:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
